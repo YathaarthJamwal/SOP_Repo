@@ -201,8 +201,15 @@ client = Client(pub, priv)
 # r = 9
 # server = Server(pub, r)
 
+# CHANGE THE VALUES OF X AND Y BELOW TO GET THE OUTPUT
+# -------------------------------------------------------
+
 X = 12
 Y= 11
+
+# -------------------------------------------------------
+
+
 X_encrypted = encrypt(pub, X)
 Y_encrypted = encrypt(pub, Y)
 server = Server(pub, X_encrypted, Y_encrypted)
