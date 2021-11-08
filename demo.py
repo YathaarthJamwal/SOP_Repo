@@ -2,7 +2,7 @@
 
 from paillier.paillier import *
 
-import libnum
+# import libnum
 
 # print(libnum.primes(100))
 # print(libnum.factorize(266389614190954197077551832167907987753))

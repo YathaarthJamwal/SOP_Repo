@@ -1,7 +1,7 @@
 # from math import log2
 from dgk_protocol import *
 from paillier.modified_paillier import *
-import libnum
+# import libnum
 
 print ("Generating keypair...")
 priv, pub, priv_key1, priv_key2 = generate_keypair(64)
